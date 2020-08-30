@@ -1,0 +1,126 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#inicio{
+    background: linear-gradient(to right, #141e30, #243b55);
+}
+#uno{
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+}
+#dos{
+    background: linear-gradient(to right, #4b6cb7, #182848);
+}
+#tres{
+    background: linear-gradient(to right, #536976, #292e49);
+}
+#cuatro{
+    background: linear-gradient(to right, #2b5876, #4e4376);
+}
+.barra{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    z-index: 100;
+    
+}
+.boton{
+    width: 99%;
+    padding-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+#imagenboton{
+    width: 300px;
+    height: 300px;
+    border-radius: 0 30px 30px 30px;
+}
+#botones{
+    margin: 0 auto;
+}
+
+#botones td{
+    width: 60%;
+}
+#botones tr{
+    height: 400px;
+}
+
+#enlace{
+    text-decoration: none;
+    padding: 30px 50px;
+    margin: 0 auto;
+    background-color: khaki;
+    color: black;
+    border-radius: 30px;
+    line-height: 50%;
+    font-size: 16px;
+}
+#enlace:hover{
+    background-color: orange;
+    color: white;
+}
+#regresar{
+    padding: 15px 50px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    float: right;
+    margin-top: -58px;
+    color: black;
+    font-size: 20px;
+}
+#regresar:hover{
+    background-color: black;
+    color: White;
+    border: 2px solid white;
+}
+#curr1{
+    width: 99%;
+    padding-top: 60px;
+    position: relative;
+}
+#titulo{
+    color: white;
+    font-size:35px;
+    text-align: center;
+}
+
+#fotoc{
+    padding-top: 15px;
+    width: 150px;
+    height: 200px;
+}
+#contenido{
+    position: relative;
+}
+#linea{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    position: relative;
+}
+#contenido{
+    color: white;
+    width: 90%;
+    padding-left: 100px;
+}
+#seccion{
+    color: white;   
+    padding-left: 50px;
+    position: relative;
+}
+#personaje{
+    width: 350px;
+    height: 500px;
+    
+}
+#textop{
+    text-align: justify;
+}
